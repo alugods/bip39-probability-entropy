@@ -1,0 +1,13 @@
+[package]
+name = "haniflab"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bip39 = "2"
+bip32 = { version = "0.5", features = ["bip39"] }
+k256 = { version = "0.13", features = ["ecdsa"] }
+rayon = "1.10"
+tiny-keccak = { version = "2", features = ["keccak"] }
+hex = "0.4"
+
